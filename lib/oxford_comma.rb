@@ -9,5 +9,3 @@ else
   puts "this"
 end 
 end 
-
-
