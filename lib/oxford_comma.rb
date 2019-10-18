@@ -4,7 +4,7 @@ if list.length == 1
 elsif list.length == 2
   return list.join(" and ")
 elsif list.length == 3
-  return list.join(", ")(" and ")
+  return list.join(", ")" and "
 else 
   return "this"
 end 
