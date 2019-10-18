@@ -6,6 +6,7 @@ else if list == ["kiwi", "durian"]
 else if list == ["kiwi", "durian", "starfruit"]
   puts list.join(" , " " and ")
 else
+  puts list.join
 end 
 end 
 
