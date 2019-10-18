@@ -1,8 +1,10 @@
 def oxford_comma(list)
-if list == ["kiwi"]
+if list.length(1)
   puts list
-else  list == ["kiwi", "durian"]
+else if list.length(2)
   puts list.join(" and ")
+else if list.length(3)
+  puts list.join(", " " and ")
 end 
 end 
 
