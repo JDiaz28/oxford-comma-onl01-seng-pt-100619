@@ -1,12 +1,12 @@
 def oxford_comma(list)
   list = ["kiwi"]
 if list.length == 1
-  puts list
+  return list
 elsif list.length == 2
-  puts list.join(" and ")
+  return list.join(" and ")
 elsif list.length == 3
-  puts list.join(", " " and ")
+  return list.join(", " " and ")
 else 
-  puts "this"
+  return "this"
 end 
 end 
