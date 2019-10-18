@@ -1,9 +1,9 @@
 def oxford_comma(list)
-if list.length(1)
+if list.length ==
   puts list
-elsif list.length(2)
+elsif list.length ==
   puts list.join(" and ")
-elsif list.length(3)
+elsif list.length ==
   puts list.join(", " " and ")
 else 
   puts "this"
