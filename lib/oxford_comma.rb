@@ -1,5 +1,4 @@
 def oxford_comma(list)
-  list = ["kiwi"]
 if list.length == 1
   return list
 elsif list.length == 2
